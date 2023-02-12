@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSCpE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <div class="app">
+                <div class="menu-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                    </div>
+                </div>
+        
+            <aside class="sidebar">
+                    <h3>Menu</h3>
+                    
+                    <nav class="menu">
+                        <a href="index.html" class="menu-item">Home</a>
+                        <a href="index1.html" class="menu-item is-active">About</a>
+                        <a href="index2.html" class="menu-item">Class Schedule</a>
+                        <!-- <a href="#" class="menu-item">Contact</a> -->
+                    </nav>
+        
+            </aside>
+        
+                <main class="content">
+                    <h1>Computer Engineering Journey</h1>
+                    <br>
+                    <h3>BSCpE 2B-N</h3>
+                    <br><br>
+                    <div class="paragraphs">
+                        <p>Once upon a time, there was a young boy who was fascinated by technology from a young age. He would often take apart his toys and try to put them back together, much to the frustration of his parents.</p>
+                        <p>Despite their initial concerns, they soon realized that the young boy had a real talent for fixing things and that he was always eager to learn more. They encouraged him to pursue his interest in technology, and the young boy soon became enamored with computers.</p>
+                        <p>In high school, the young boy excelled in his computer science classes and even taught himself how to code in multiple programming languages. His teachers took notice of his talent and recommended him to a summer program at a local university where he could further develop his skills.</p>
+                        <p>It was there that the young boy met a renowned computer engineer who took him under his wing and became his mentor. The engineer saw the potential in the young boy and encouraged him to pursue a degree in computer engineering.</p>
+                        <p>Fast forward a few years, and the young boy was now a successful computer engineering student at a top university. He had already completed several internships at tech companies and was even considering starting his own company after graduation.</p>
+                        <p>Despite the challenges he faced along the way, the young boy never lost his passion for technology and was always eager to learn more. He was determined to use his skills to make a positive impact on the world and was confident that he would achieve his goals.</p>
+                    </div>
+                    <br><br>
+                    <center>
+                        <img src="images\asdasdas.jpg" alt="BSCpE">
+                    </center>
+                </main>
+            </div>
+            <script>
+                const menu_toggle = document.querySelector('.menu-toggle');
+                const sidebar = document.querySelector('.sidebar');
+        
+                menu_toggle.addEventListener('click', () => {
+                    menu_toggle.classList.toggle('is-active');
+                    sidebar.classList.toggle('is-active');
+                });
+            </script>
+    </body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+
+    <aside class="sidebar">
+            <h3>Menu</h3>
+            
+            <nav class="menu">
+                <a href="index.html" class="menu-item">Home</a>
+                <a href="index1.html" class="menu-item">About</a>
+                <a href="index2.html" class="menu-item is-active">Class Schedule</a>
+                <!-- <a href="#" class="menu-item">Contact</a> -->
+            </nav>
+
+    </aside>
+
+        <main class="content">
+            <h1>Computer Engineering Journey</h1>
+            <br>
+            <h3>BSCpE 2B-N</h3>
+            <br><br>
+            <div class="lol">
+
+        
+                <h1>Class Schedule</h1>
+                <hr>
+                <h2 id="days">Monday</h2>
+                <h4>GEE-ES</h4>
+                4:30pm-6:00pm
+                <br>
+                PEPITO 
+                <br>
+                EN CME 308
+                <hr>
+                <h2 id="days">Tuesday</h2>
+                <h4>GEE-AA</h4>
+                4:30pm-6:00pm
+                <br>
+                COLE
+                <br>
+                EN CME 308
+                <br><br>
+                <h4>CpE PC 227</h4>
+                6:00-7:30 
+                <br>
+                BENTOY
+                <br>
+                EN CME 401
+                
+                <hr>
+                <h2 id="days">Wednesday</h2>
+                <h4>GEE-ES</h4>
+                
+                4:30-6:00
+                <br>
+                PEPITO
+                <br>
+                EN CME 308
+                <hr>
+                <h2 id="days">Thursday</h2>
+                <h4>GEC-TEM</h4>
+                
+                4:30-6:00
+                <br>
+                TAPAYAN
+                <br>
+                EN CME 1
+                <br><br>
+                <h4>CpE PC 227</h4>
+                6:00-7:30 
+                <br>
+                BENTOY
+                <br>
+                EN CME 401
+        
+                <hr>
+                <h2 id="days">Friday</h2>
+                <h4>GEE-AA</h4>
+                
+                4:30-6:00
+                <br>
+                COLE
+                <br>
+                EN CME 308
+                
+                <hr>
+                <h2 id="days">Saturday</h2>
+                <h4>PE 4</h4>
+                
+                7:00-10:00
+                <br>
+                ICOT
+                <br>
+                <br>
+                <h4>GEC-TEM</h4>
+                
+                4:30-6:00
+                <br>
+                TAPAYAN
+                <br>
+                EN CME 1
+                <br>
+                <br>
+                <h4>CpE PC 3219</h4>
+                1:00-4:00
+                <br>
+                RIVERA
+                <br>
+                CL 1
+                <br>
+                <br>
+                <h4>GEC-TCW</h4>
+                6:00-9:00
+                <br>
+                CHIBA
+                <br>
+                EN CME 1
+                <hr>
+            </div>
+            <br><br>
+
+        </main>  
+        <script>
+            const menu_toggle = document.querySelector('.menu-toggle');
+            const sidebar = document.querySelector('.sidebar');
+    
+            menu_toggle.addEventListener('click', () => {
+                menu_toggle.classList.toggle('is-active');
+                sidebar.classList.toggle('is-active');
+            });
+        </script>
+</body>
+</html>
